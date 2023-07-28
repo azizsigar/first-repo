@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    height: 100%;
+}
+header{    
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px;
+    height: 130px;
+    background-color:#3b5998;
+    color: whitesmoke;
+}
+.login{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50%;
+    width: 140px;    
+}
+.form-hr{
+    display: flex;
+    flex-direction:row;
+    width: 270px;
+    color: darkblue;
+}
+.main-content{
+    display: flex;
+    justify-content: space-around; 
+    height: 33rem;
+    color: #19385f;
+    background-image: linear-gradient(0deg, gainsboro,whitesmoke);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 304px;
+    align-items:flex-start;
+    line-height: 24px;
+    flex-wrap: wrap;
+    align-items: end;
+    margin-top: 37px;
+}
+.form-header{
+    align-items: flex-start;
+}
+.form input{
+    width: 150px;
+    height: 21px;
+    
+}
+.privacy{
+    padding-left: 30px;
+}
+
+.form-footer{
+    text-align: center;
+    padding-left: 3rem;
+}
+footer{
+    display: flex;   
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    
+
+}
+footer :first-child{
+    display: flex;
+    padding: 5px;  
+    text-decoration: none;  
+    flex-wrap: wrap;    
+}
+.footer-hr{
+    width: 100%;
+}
+
+ .photo p{
+    padding: 35px;
+ }
+.login :first-child{
+    padding-right: 10px;
+}
+footer :last-child{
+    padding-left: 3px;
+    margin-right: 14px;
+}
+.login button{
+    color: white;
+    border-radius: 2px;
+    background-color: #8698bf;
+    margin: 10px;
+    margin-top: 27px;
+    height: 20px;
+    width: 100%;
+}
+.form button{
+    color: white;
+    border-radius: 2px;
+    background-color: #67a54b;
+    border: 1px black outset;
+    margin: 10px;
+    margin-top: 27px;
+    margin-left: 0px;
+    height: 20px;
+    width: 50%;
+}
+a{
+    text-decoration: none;
+    color: darkblue;
+}
