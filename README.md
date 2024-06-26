@@ -3,9 +3,11 @@
 # first-repo
 
 This is the first repository by azizsigar. It contains HTML and CSS files for a web project.
-i startred the writing code
+i startred the writing code     
 
-###hello world is mine
+
+
+## hello world is mine
 
 ## Files
 
